@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url("dubai.avif");
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+
+.clock{
+    display: flex;
+}
+
+.clock div{
+    margin:  5px;
+    position: relative;
+}
+
+.clock span{
+    width: 100px;
+    height: 70px;
+    background-color: antiquewhite;
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    opacity: .9;
+
+}
+
+.clock .text{
+    height: 30px;
+    font-size: large;
+    letter-spacing: 1px;
+    background-color: bisque;
+    opacity: .9;
+    color: rgb(114, 36, 188);
+}
+
+
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    background-color: rgb(255, 222, 183);
+    height: 30px;
+    font-size: large;
+    letter-spacing: 1px;
+    color: rgb(114, 36, 188);
+    opacity: .9;
+}
